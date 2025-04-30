@@ -6,10 +6,13 @@ test_raw_data_dir = raw_data_dir + '/' + 'test'
 processed_data_dir = data_dir + '/' + 'processed'
 
 models_dir = 'models'
+rfr_dir = models_dir + '/' + 'rfr'
+scaler_dir = models_dir + '/' + 'scaler' 
 
 reports_dir = 'reports'
 figures_dir = reports_dir + '/' + 'figures'
 heatmaps_dir = figures_dir + '/' + 'heatmaps'
 lines_dir = figures_dir + '/' + 'lines'
 kde_dir = figures_dir + '/' + 'kdes'
+importances_dir = figures_dir + '/' + 'importances'
 predictions_dir = reports_dir + '/' + 'predictions'
