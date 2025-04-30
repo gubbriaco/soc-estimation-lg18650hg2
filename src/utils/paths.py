@@ -1,0 +1,15 @@
+data_dir = 'data'
+raw_data_dir = data_dir + '/' + 'raw'
+train_raw_data_dir = raw_data_dir + '/' + 'train'
+val_raw_data_dir = raw_data_dir + '/' + 'val'
+test_raw_data_dir = raw_data_dir + '/' + 'test'
+processed_data_dir = data_dir + '/' + 'processed'
+
+models_dir = 'models'
+
+reports_dir = 'reports'
+figures_dir = reports_dir + '/' + 'figures'
+heatmaps_dir = figures_dir + '/' + 'heatmaps'
+lines_dir = figures_dir + '/' + 'lines'
+kde_dir = figures_dir + '/' + 'kdes'
+predictions_dir = reports_dir + '/' + 'predictions'
